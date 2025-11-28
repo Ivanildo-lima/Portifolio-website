@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="projetos.css">
+    <title>Meus Projetos - Portfólio</title>
+</head>
+
+<body>
+    <header>
+        <a href="index.html" class="logo">Ivanildo Lima</a>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="projetos.html" class="active">Projetos</a>
+            <a href="#skills">Skills</a>
+            <a href="#education">Educação</a>
+            <a href="#experience">Experiência</a>
+            <a href="#contact">Contato</a>
+        </nav>
+    </header>
+
+    <!-- ===== SEÇÃO DE PROJETOS ===== -->
+    <section class="projects-section">
+        <div class="projects-header">
+            <h1>Meus <span>Projetos Front-end</span></h1>
+            <p>Projetos em desenvolvimento durante minha jornada como Desenvolvedor Front-end</p>
+        </div>
+
+        <!-- Filtros -->
+        <div class="filters">
+            <button class="filter-btn active" data-filter="all">Todos</button>
+            <button class="filter-btn" data-filter="html-css-js">HTML/CSS/JS</button>
+            <button class="filter-btn" data-filter="react">React</button>
+            <button class="filter-btn" data-filter="responsivo">Responsivo</button>
+        </div>
+
+        <!-- Grid de Projetos -->
+        <div class="projects-grid">
+            <!-- Projeto 1 -->
+            <div class="project-card" data-category="html-css-js">
+                <div class="project-image">
+                    <img src="./img/img.png" alt="Página de Login">
+                    <div class="project-overlay">
+                        <a href="https://ivanildo-lima.github.io/P.4login-page/" class="project-link" title="Abrir projeto"><i
+                                class="fas fa-external-link-alt"></i></a>
+                        <a href="https://github.com/Ivanildo-lima/P.4login-page" class="project-link" target="_blank" title="Ver no GitHub"><i
+                                class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Página de Login</h3>
+                    <p>Interface moderna de login com validação de formulário e autenticação local</p>
+                    <div class="project-tags">
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">JavaScript</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 2 -->
+            <div class="project-card" data-category="react">
+                <div class="project-image">
+                    <img src="./img/img 1.png"
+                        alt="Showcase interativo de veículos">
+                    <div class="project-overlay">
+                        <a href="#" class="project-link" title="Abrir projeto"><i
+                                class="fas fa-external-link-alt"></i></a>
+                        <a href="https://github.com" class="project-link" target="_blank" title="Ver no GitHub"><i
+                                class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Showcase interativo de veículos</h3>
+                    <p>Carrossel simples e estiloso de veículos criado com HTML, CSS e JavaScript puro.</p>
+                    <div class="project-tags">
+                        <span class="tag">Html</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">JavaScript</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="project-card" data-category="responsivo">
+                <div class="project-image">
+                    <img src="https://via.placeholder.com/300x200?text=Portfólio+Responsivo" alt="Portfólio Responsivo">
+                    <div class="project-overlay">
+                        <a href="#" class="project-link" title="Abrir projeto"><i
+                                class="fas fa-external-link-alt"></i></a>
+                        <a href="https://github.com" class="project-link" target="_blank" title="Ver no GitHub"><i
+                                class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Portfólio Responsivo</h3>
+                    <p>Site portfólio moderno com design responsivo e animações suaves</p>
+                    <div class="project-tags">
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">JavaScript</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 4 -->
+            <div class="project-card" data-category="html-css-js">
+                <div class="project-image">
+                    <img src="./img/img 2.png" alt="Componentes Animados">
+                    <div class="project-overlay">
+                        <a href="https://ivanildo-lima.github.io/site-simples-de-pizaria/" class="project-link" title="Abrir projeto"><i
+                                class="fas fa-external-link-alt"></i></a>
+                        <a href="https://github.com/Ivanildo-lima/site-simples-de-pizaria" class="project-link" target="_blank" title="Ver no GitHub"><i
+                                class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Site-Simples-de-Pizzaria</h3>
+                    <p>Site moderno e responsivo para uma pizzaria local com integração WhatsApp para pedidos.</p>
+                    <div class="project-tags">
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS Animations</span>
+                        <span class="tag">JavaScript</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 5 -->
+            <div class="project-card" data-category="responsivo">
+                <div class="project-image">
+                    <img src="https://via.placeholder.com/300x200?text=Landing+Page" alt="Landing Page">
+                    <div class="project-overlay">
+                        <a href="#" class="project-link" title="Abrir projeto"><i
+                                class="fas fa-external-link-alt"></i></a>
+                        <a href="https://github.com" class="project-link" target="_blank" title="Ver no GitHub"><i
+                                class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Landing Page</h3>
+                    <p>Página de pouso profissional e responsiva com formulário de contato</p>
+                    <div class="project-tags">
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">Bootstrap</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 6 -->
+            <div class="project-card" data-category="react">
+                <div class="project-image">
+                    <img src="https://via.placeholder.com/300x200?text=App+Clima" alt="App Clima">
+                    <div class="project-overlay">
+                        <a href="#" class="project-link" title="Abrir projeto"><i
+                                class="fas fa-external-link-alt"></i></a>
+                        <a href="https://github.com" class="project-link" target="_blank" title="Ver no GitHub"><i
+                                class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>App de Clima</h3>
+                    <p>Aplicação React que consulta API de clima com interface intuitiva</p>
+                    <div class="project-tags">
+                        <span class="tag">React</span>
+                        <span class="tag">API</span>
+                        <span class="tag">CSS</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== RODAPÉ ===== -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2025 Ivanildo Lima. Todos os direitos reservados.</p>
+            <div class="social-links">
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"><i
+                        class="fab fa-linkedin"></i></a>
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"><i
+                        class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="projetos.js"></script>
+</body>
+
+</html>
