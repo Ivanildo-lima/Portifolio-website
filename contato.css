@@ -3,6 +3,10 @@
    ============================================================================ */
 
 /* ===== SEÇÃO DE CONTATO ===== */
+
+.logo span {
+    color: white;
+}
 .contact-section {
     min-height: 100vh;
     padding: 10rem 9% 5rem;
@@ -22,6 +26,7 @@
 }
 
 /* ===== HEADER DA SEÇÃO ===== */
+
 .contact-section .section-header {
     text-align: center;
     margin-bottom: 5rem;
