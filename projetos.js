@@ -273,4 +273,3 @@ filterButtons.forEach(button => {
         setTimeout(() => ripple.remove(), 600);
     });
 });
-
