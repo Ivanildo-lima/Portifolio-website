@@ -5,7 +5,7 @@
 class ProjectsFilter {
     constructor() {
         this.filterButtons = document.querySelectorAll('.filter-btn');
-        this.projectCards = document.querySelectorAll('.project-card');
+        this.projectCards = [...document.querySelectorAll('.project-card')];
         this.init();
     }
 
